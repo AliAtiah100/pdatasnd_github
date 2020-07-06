@@ -210,7 +210,7 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no. \n ').lower()
         if restart.lower() != 'yes':
 
-            print('\nThank you for using the app.\n ')
+            print('\nThank you for using the app. This code supported by Udacity\n ')
             break
 
 if __name__ == "__main__":
