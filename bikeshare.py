@@ -59,7 +59,9 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-
+    print()
+    print(" Filters applied :[ {}, {}, {}] ".format(city, month, day).center(78, '*'))
+    print()
 
     # transfer data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
