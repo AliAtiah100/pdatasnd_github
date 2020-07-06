@@ -1,3 +1,5 @@
+# This code is built based on Udacity guidlines
+
 import time
 import pandas as pd
 import numpy as np
