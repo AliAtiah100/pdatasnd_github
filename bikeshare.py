@@ -1,13 +1,18 @@
+# This code is built based on Udacity guidlines
+
 import time
 import pandas as pd
 import numpy as np
 import json
+
 
 # This code to explore US bikeshare Data
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york': 'new_york_city.csv',
              'washington': 'washington.csv'}
+
+# The First Function
 
 def get_filters():
     """
